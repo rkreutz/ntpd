@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC06C668259117FE0005137B /* ntpdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06C652259117FE0005137B /* ntpdApp.swift */; };
+		FC06C66E259117FE0005137B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC06C655259117FE0005137B /* Assets.xcassets */; };
+		FC06C66F259117FE0005137B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC06C655259117FE0005137B /* Assets.xcassets */; };
+		FC06C6AD25912E8A0005137B /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06C6AC25912E8A0005137B /* Note.swift */; };
+		FC523BDB2634B3DE006F73CE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06C6AC25912E8A0005137B /* Note.swift */; };
+		FC523BEA2634D7DD006F73CE /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BE92634D7DD006F73CE /* Notebook.swift */; };
+		FC523BEB2634D7DD006F73CE /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BE92634D7DD006F73CE /* Notebook.swift */; };
+		FC523BEF2634D8B6006F73CE /* ntpdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BEE2634D8AF006F73CE /* ntpdApp.swift */; };
+		FC523BF62634D8DF006F73CE /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BF52634D8DF006F73CE /* NoteView.swift */; };
+		FC523BF72634D8DF006F73CE /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BF52634D8DF006F73CE /* NoteView.swift */; };
+		FC523BFF2634DAB8006F73CE /* String+StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BFD2634DAB8006F73CE /* String+StringInterpolation.swift */; };
+		FC523C052634DDCE006F73CE /* ReplicatingStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C042634DDCE006F73CE /* ReplicatingStringView.swift */; };
+		FC523C062634DDCE006F73CE /* ReplicatingStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C042634DDCE006F73CE /* ReplicatingStringView.swift */; };
+		FC523C162634E77F006F73CE /* String+StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523BFD2634DAB8006F73CE /* String+StringInterpolation.swift */; };
+		FC523C1F2635A1B4006F73CE /* CFRDT in Frameworks */ = {isa = PBXBuildFile; productRef = FC523C1E2635A1B4006F73CE /* CFRDT */; };
+		FC523C262635B9C5006F73CE /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C252635B9C5006F73CE /* LocalStorageService.swift */; };
+		FC523C272635B9C5006F73CE /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C252635B9C5006F73CE /* LocalStorageService.swift */; };
+		FC523C2B2635B9D7006F73CE /* FileLocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C2A2635B9D7006F73CE /* FileLocalStorageService.swift */; };
+		FC523C2C2635B9D7006F73CE /* FileLocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C2A2635B9D7006F73CE /* FileLocalStorageService.swift */; };
+		FC523C322635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C312635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift */; };
+		FC523C332635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C312635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift */; };
+		FC523C4E2635E879006F73CE /* RemoteStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C4D2635E879006F73CE /* RemoteStorageService.swift */; };
+		FC523C4F2635E879006F73CE /* RemoteStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C4D2635E879006F73CE /* RemoteStorageService.swift */; };
+		FC523C532635E88C006F73CE /* CloudKitRemoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C522635E88C006F73CE /* CloudKitRemoteStorage.swift */; };
+		FC523C542635E88C006F73CE /* CloudKitRemoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC523C522635E88C006F73CE /* CloudKitRemoteStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC06C652259117FE0005137B /* ntpdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntpdApp.swift; sourceTree = "<group>"; };
+		FC06C655259117FE0005137B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC06C65A259117FE0005137B /* ntpd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ntpd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC06C65D259117FE0005137B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC06C662259117FE0005137B /* ntpd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ntpd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC06C664259117FE0005137B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC06C665259117FE0005137B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FC06C6AC25912E8A0005137B /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		FC523BE92634D7DD006F73CE /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		FC523BEE2634D8AF006F73CE /* ntpdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntpdApp.swift; sourceTree = "<group>"; };
+		FC523BF52634D8DF006F73CE /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		FC523BFD2634DAB8006F73CE /* String+StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+StringInterpolation.swift"; sourceTree = "<group>"; };
+		FC523C042634DDCE006F73CE /* ReplicatingStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicatingStringView.swift; sourceTree = "<group>"; };
+		FC523C252635B9C5006F73CE /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		FC523C2A2635B9D7006F73CE /* FileLocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLocalStorageService.swift; sourceTree = "<group>"; };
+		FC523C312635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+CreateDirectoryIfNeeded.swift"; sourceTree = "<group>"; };
+		FC523C4D2635E879006F73CE /* RemoteStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStorageService.swift; sourceTree = "<group>"; };
+		FC523C522635E88C006F73CE /* CloudKitRemoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitRemoteStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC06C657259117FE0005137B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC523C1F2635A1B4006F73CE /* CFRDT in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC06C65F259117FE0005137B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC06C64A259117FE0005137B = {
+			isa = PBXGroup;
+			children = (
+				FC06C64F259117FE0005137B /* Shared */,
+				FC06C65C259117FE0005137B /* iOS */,
+				FC06C663259117FE0005137B /* macOS */,
+				FC06C65B259117FE0005137B /* Products */,
+				FC523BD12634AF10006F73CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC06C64F259117FE0005137B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FC523C242635B9A0006F73CE /* Services */,
+				FC523BFC2634DAA6006F73CE /* Extensions */,
+				FC06C6832591204D0005137B /* Models */,
+				FC523BF42634D8C7006F73CE /* Views */,
+				FC06C655259117FE0005137B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FC06C65B259117FE0005137B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC06C65A259117FE0005137B /* ntpd.app */,
+				FC06C662259117FE0005137B /* ntpd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC06C65C259117FE0005137B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC06C652259117FE0005137B /* ntpdApp.swift */,
+				FC06C65D259117FE0005137B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		FC06C663259117FE0005137B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC523BEE2634D8AF006F73CE /* ntpdApp.swift */,
+				FC06C664259117FE0005137B /* Info.plist */,
+				FC06C665259117FE0005137B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FC06C6832591204D0005137B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC06C6AC25912E8A0005137B /* Note.swift */,
+				FC523BE92634D7DD006F73CE /* Notebook.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC523BD12634AF10006F73CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC523BF42634D8C7006F73CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC523BF52634D8DF006F73CE /* NoteView.swift */,
+				FC523C042634DDCE006F73CE /* ReplicatingStringView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC523BFC2634DAA6006F73CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC523BFD2634DAB8006F73CE /* String+StringInterpolation.swift */,
+				FC523C312635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC523C242635B9A0006F73CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC523C4C2635E86A006F73CE /* RemoteStorage */,
+				FC523C382635E225006F73CE /* LocalStorage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC523C382635E225006F73CE /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				FC523C252635B9C5006F73CE /* LocalStorageService.swift */,
+				FC523C2A2635B9D7006F73CE /* FileLocalStorageService.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		FC523C4C2635E86A006F73CE /* RemoteStorage */ = {
+			isa = PBXGroup;
+			children = (
+				FC523C4D2635E879006F73CE /* RemoteStorageService.swift */,
+				FC523C522635E88C006F73CE /* CloudKitRemoteStorage.swift */,
+			);
+			path = RemoteStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC06C659259117FE0005137B /* ntpd (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC06C672259117FE0005137B /* Build configuration list for PBXNativeTarget "ntpd (iOS)" */;
+			buildPhases = (
+				FC06C656259117FE0005137B /* Sources */,
+				FC06C657259117FE0005137B /* Frameworks */,
+				FC06C658259117FE0005137B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ntpd (iOS)";
+			packageProductDependencies = (
+				FC523C1E2635A1B4006F73CE /* CFRDT */,
+			);
+			productName = "ntpd (iOS)";
+			productReference = FC06C65A259117FE0005137B /* ntpd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC06C661259117FE0005137B /* ntpd (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC06C675259117FE0005137B /* Build configuration list for PBXNativeTarget "ntpd (macOS)" */;
+			buildPhases = (
+				FC06C65E259117FE0005137B /* Sources */,
+				FC06C65F259117FE0005137B /* Frameworks */,
+				FC06C660259117FE0005137B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ntpd (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ntpd (macOS)";
+			productReference = FC06C662259117FE0005137B /* ntpd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC06C64B259117FE0005137B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FC06C659259117FE0005137B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FC06C661259117FE0005137B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FC06C64E259117FE0005137B /* Build configuration list for PBXProject "ntpd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC06C64A259117FE0005137B;
+			packageReferences = (
+				FC523C1D2635A1B4006F73CE /* XCRemoteSwiftPackageReference "CFRDT" */,
+			);
+			productRefGroup = FC06C65B259117FE0005137B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC06C659259117FE0005137B /* ntpd (iOS) */,
+				FC06C661259117FE0005137B /* ntpd (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC06C658259117FE0005137B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06C66E259117FE0005137B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC06C660259117FE0005137B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06C66F259117FE0005137B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC06C656259117FE0005137B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC523C162634E77F006F73CE /* String+StringInterpolation.swift in Sources */,
+				FC523C532635E88C006F73CE /* CloudKitRemoteStorage.swift in Sources */,
+				FC523C4E2635E879006F73CE /* RemoteStorageService.swift in Sources */,
+				FC523C322635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift in Sources */,
+				FC523C2B2635B9D7006F73CE /* FileLocalStorageService.swift in Sources */,
+				FC06C668259117FE0005137B /* ntpdApp.swift in Sources */,
+				FC523C052634DDCE006F73CE /* ReplicatingStringView.swift in Sources */,
+				FC523BF62634D8DF006F73CE /* NoteView.swift in Sources */,
+				FC523C262635B9C5006F73CE /* LocalStorageService.swift in Sources */,
+				FC523BEA2634D7DD006F73CE /* Notebook.swift in Sources */,
+				FC06C6AD25912E8A0005137B /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC06C65E259117FE0005137B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC523BFF2634DAB8006F73CE /* String+StringInterpolation.swift in Sources */,
+				FC523C542635E88C006F73CE /* CloudKitRemoteStorage.swift in Sources */,
+				FC523C4F2635E879006F73CE /* RemoteStorageService.swift in Sources */,
+				FC523C332635BD80006F73CE /* FileManager+CreateDirectoryIfNeeded.swift in Sources */,
+				FC523C2C2635B9D7006F73CE /* FileLocalStorageService.swift in Sources */,
+				FC523C062634DDCE006F73CE /* ReplicatingStringView.swift in Sources */,
+				FC523BF72634D8DF006F73CE /* NoteView.swift in Sources */,
+				FC523BEB2634D7DD006F73CE /* Notebook.swift in Sources */,
+				FC523C272635B9C5006F73CE /* LocalStorageService.swift in Sources */,
+				FC523BDB2634B3DE006F73CE /* Note.swift in Sources */,
+				FC523BEF2634D8B6006F73CE /* ntpdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC06C670259117FE0005137B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC06C671259117FE0005137B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FC06C673259117FE0005137B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49K39S52K6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkreutz.ntpd;
+				PRODUCT_NAME = ntpd;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC06C674259117FE0005137B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49K39S52K6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkreutz.ntpd;
+				PRODUCT_NAME = ntpd;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC06C676259117FE0005137B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49K39S52K6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkreutz.ntpd;
+				PRODUCT_NAME = ntpd;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FC06C677259117FE0005137B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49K39S52K6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkreutz.ntpd;
+				PRODUCT_NAME = ntpd;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC06C64E259117FE0005137B /* Build configuration list for PBXProject "ntpd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06C670259117FE0005137B /* Debug */,
+				FC06C671259117FE0005137B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC06C672259117FE0005137B /* Build configuration list for PBXNativeTarget "ntpd (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06C673259117FE0005137B /* Debug */,
+				FC06C674259117FE0005137B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC06C675259117FE0005137B /* Build configuration list for PBXNativeTarget "ntpd (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06C676259117FE0005137B /* Debug */,
+				FC06C677259117FE0005137B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC523C1D2635A1B4006F73CE /* XCRemoteSwiftPackageReference "CFRDT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/teamwork/CFRDT";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC523C1E2635A1B4006F73CE /* CFRDT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC523C1D2635A1B4006F73CE /* XCRemoteSwiftPackageReference "CFRDT" */;
+			productName = CFRDT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FC06C64B259117FE0005137B /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CFRDT",
+        "repositoryURL": "/Users/teamwork/CFRDT",
+        "state": {
+          "branch": "main",
+          "revision": "ed8bd88b2e055725dc5b6475b07257c9ce4725b1",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
